@@ -34,10 +34,19 @@ export default App;
 Deploy the application using one of the methods covered in class: Github Pages, Render, or AWS. If you prefer to use a different service, explain your choice and process.
 
 ## Submitting
-Edit this file (README.md) and complete the following:
 
-- URL to live application: 
+- URL to live application: <https://homework-2-karendolan.onrender.com> 
+
 - How did you deploy it?
+	* npm run build in ./my-first-app directory
+   * Remove ./build from .gitigmore, 
+   * Commit build diretory, push to main
+   * Signup for a Render.com account
+   * Add a link to this repo to the free Render static site
+   * Reference the ./my-first-app/build for the static files
+   * Let Render clone and push the static files
+
 - What code editor are you using?
+	* Atom.io
 
 That is all!
